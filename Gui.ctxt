@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Gui
+comment0.text=\r\n\ Cria\ a\ interface\ com\ o\ usuario\ (GUI).\r\n\ \r\n\ Integrantes\ do\ Grupo\:\r\n\ -\ Jo\u00E3o\ Lucas\ de\ Lima\ Souza\ -\ RA00360044\r\n\ -\ Pedro\ Chagas\ Neves\ de\ Farias\ Nascimento\ -\ RA00359511\r\n\ -\ Guilherme\ Pereira\ de\ Rivoredo\ -\ RA00359303\r\n\ -\ Eduardo\ Achkar\ avancini\ -\ RA00359889\r\n
+comment1.params=larg\ alt
+comment1.target=Gui(int,\ int)
+numComments=2

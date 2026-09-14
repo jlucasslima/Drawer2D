@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=CirculoGr
+comment1.params=x1\ y1\ x2\ y2\ cor\ esp
+comment1.target=CirculoGr(int,\ int,\ int,\ int,\ java.awt.Color,\ int)
+comment2.params=g
+comment2.target=void\ desenhar(java.awt.Graphics)
+comment3.params=g\ xc\ yc\ x\ y
+comment3.target=void\ desenharOctantes(java.awt.Graphics,\ int,\ int,\ int,\ int)
+comment4.params=
+comment4.target=int\ getXCentro()
+comment5.params=
+comment5.target=int\ getYCentro()
+comment6.params=
+comment6.target=int\ getRaio()
+numComments=7
