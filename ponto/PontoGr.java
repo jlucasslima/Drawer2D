@@ -15,4 +15,6 @@ public class PontoGr {
     }
     public int getX() { return x; }
     public int getY() { return y; }
+    public Color getCor() { return cor; }
+    public int getEsp() { return esp; }
 }

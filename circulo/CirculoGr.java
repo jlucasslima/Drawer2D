@@ -29,4 +29,6 @@ public class CirculoGr {
     public int getXCentro() { return x1; }
     public int getYCentro() { return y1; }
     public int getRaio() { return raio; }
+    public Color getCor() { return cor; }
+    public int getEsp() { return esp; }
 }

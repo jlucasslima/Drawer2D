@@ -36,6 +36,7 @@ class Gui extends JFrame {
     private JButton jbTriangulo = new JButton("Triângulo");
     
     private JButton jbSelecao = new JButton("Borracha/Seleção");
+    private JButton jbEspelhar = new JButton("Espelhar");
     private JButton jbExportarJPEG = new JButton("Exportar JPEG");
     private JButton jbExportarJSON = new JButton("Exportar JSON");
 
@@ -70,6 +71,7 @@ class Gui extends JFrame {
         // Adicionando os novos botões na barra
         barraComandos.addSeparator();
         barraComandos.add(jbSelecao);
+        barraComandos.add(jbEspelhar);
         barraComandos.add(jbExportarJPEG);
         barraComandos.add(jbExportarJSON);
         
@@ -102,6 +104,14 @@ class Gui extends JFrame {
         jbSelecao.addActionListener(e -> { 
             tipoAtual = TipoPrimitivo.SELECAO; 
             areaDesenho.setTipo(tipoAtual); 
+        });
+
+        // Espelhamento: 1o clique seleciona um primitivo, 2o clique+arraste
+        // define a reta (p1,p2) do eixo e desenha o primitivo espelhado.
+        jbEspelhar.addActionListener(e -> {
+            tipoAtual = TipoPrimitivo.ESPELHO;
+            areaDesenho.setTipo(tipoAtual);
+            msg.setText("Msg: clique sobre um primitivo para seleciona-lo e espelhar.");
         });
 
         jbExportarJPEG.addActionListener(e -> {
